@@ -1,0 +1,39 @@
+{
+  "name": "vue-cache2",
+  "version": "0.0.0",
+  "description": "Keep all component instance alive for it's component constructor in Vue.js.",
+  "module": "libs/vue-cache2.es.js",
+  "main": "libs/vue-cache2.cjs.js",
+  "scripts": {
+    "lint": "eslint .",
+    "example": "poi examples/index.js",
+    "build": "bili --input index.js --format cjs,es,umd-min --outDir ./libs --moduleName VueCache"
+  },
+  "keywords": [
+    "vue",
+    "keep-alive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Army-U/vue-cache2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Army-U/vue-cache2/issues"
+  },
+  "homepage": "https://github.com/Army-U/vue-cache2#readme",
+  "author": "Army-U <wuchengkai0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bili": "3.0.15",
+    "cross-env": "5.1.4",
+    "eslint": "4.19.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.7.0",
+    "eslint-plugin-standard": "3.0.1",
+    "poi": "10.0.0-rc.6",
+    "vue": "2.5.16",
+    "vue-router": "3.0.1"
+  }
+}
