@@ -1,4 +1,4 @@
-# vue-cache2 [![Build Status](https://img.shields.io/circleci/project/github/Army-U/vue-cache2.svg?style=flat-square)](https://circleci.com/gh/Army-U/vue-cache2) [![npm package](https://img.shields.io/npm/v/vue-cache2.svg?style=flat-square)](https://www.npmjs.com/package/vue-cache2)
+# vue-cache2 [![Build Status](https://flat.badgen.net/circleci/github/Army-U/vue-cache2/master)](https://circleci.com/gh/Army-U/vue-cache2) [![npm package](https://flat.badgen.net/npm/v/vue-cache2)](https://www.npmjs.com/package/vue-cache2)
 
 Caching multiple component instances for components in Vue, the official component `Keep-Alive` can only cache an instance of different components. Common usage scenario: the different routing parameters of the same route can cause the component to use the same instance, and can not implement the caching of the data that has been requested. [（中文文档）](README.zh-CN.md)
 

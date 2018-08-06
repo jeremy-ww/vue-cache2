@@ -1,4 +1,4 @@
-# vue-cache2 [![Build Status](https://img.shields.io/circleci/project/github/Army-U/vue-cache2.svg?style=flat-square)](https://circleci.com/gh/Army-U/vue-cache2) [![npm package](https://img.shields.io/npm/v/vue-cache2.svg?style=flat-square)](https://www.npmjs.com/package/vue-cache2)
+# vue-cache2 [![Build Status](https://flat.badgen.net/circleci/github/Army-U/vue-cache2/master)](https://circleci.com/gh/Army-U/vue-cache2) [![npm package](https://flat.badgen.net/npm/v/vue-cache2)](https://www.npmjs.com/package/vue-cache2)
 
 在 Vue 中为组件缓存多份组件实例, 官方组件 `Keep-Alive` 只能对不同组件的一份实例进行缓存. 常见使用场景: 相同路由的不同路由参数会导致组件使用同一份实例, 无法实现对已经请求过的数据进行缓存. [（English Doc）](README.md)
 
